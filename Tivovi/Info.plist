@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.tivovi.test4</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>climadd</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1261056000894051</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.801051059082-7rpbkv9e5jp1jntr3p15m9mm2mo4spee</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array/>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAppID</key>
+	<string>1261056000894051</string>
+	<key>FacebookDisplayName</key>
+	<string>Tivovi</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbauth2</string>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+		<string>fbshareextension</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbapi</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Tivoi want to access your camera</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Climadd want to access contacts</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Tivoi want to access your location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Location usage Description</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Tivoi access your location</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Tivoi want to access your microphone to recording video.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Tivoi want to access your photo library</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Tivoi want to access your photos</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-SemiBold.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+		<string>Montserrat-Medium.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Auth</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string>Default</string>
+	</array>
+</dict>
+</plist>

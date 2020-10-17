@@ -1,0 +1,20 @@
+## Various settings
+xcuserdata/
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Cocoapods
+
+Pods
+Podfile.lock
+
+## Workspace
+ManebiLms.xcworkspace
+
+## Auto-generation files
+R.generated.swift
